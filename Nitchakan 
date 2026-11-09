@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f1f5f9;
+  color: #34465a;
+  line-height: 1.8;
+}
+header {
+  background: #536b83;
+  color: white;
+  text-align: center;
+  padding: 45px 15px;
+}
+nav {
+  background: white;
+  padding: 15px 5px;
+  text-align: center;
+}
+nav a {
+  color: #536b83;
+  text-decoration: none;
+  margin: 6px;
+  font-weight: bold;
+}
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 15px;
+}
+.card {
+  background: white;
+  padding: 22px;
+  margin: 18px 0;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px #dce4ec;
+}
+h2 {
+  color: #536b83;
+  border-bottom: 2px solid #d8e3ed;
+}
+.profile {
+  text-align: center;
+}
+.profile img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+footer {
+  background: #536b83;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>MY PORTFOLIO</h1>
+<p>แฟ้มสะสมผลงานของฉัน</p>
+<p>ยินดีต้อนรับเข้าสู่เว็บไซต์ของฉัน</p>
+</header>
+
+<nav>
+<a href="#about">ประวัติส่วนตัว</a>
+<a href="#education">การศึกษา</a>
+<a href="#works">ผลงาน</a>
+<a href="#activities">กิจกรรม</a>
+<a href="#certificates">เกียรติบัตร</a>
+</nav>
+
+<div class="container">
+
+<section class="card profile" id="about">
+<h2>ประวัติส่วนตัว</h2>
+<img src="https://placehold.co/300x300?text=My+Photo" alt="รูปโปรไฟล์">
+<h3>นางสาวณิชกานต์ สุดจิตร</h3>
+<p>ชื่อเล่น : นิท</p>
+<p>ระดับชั้น : มัธยมศึกษาปีที่ 6</p>
+<p>แผนการเรียน : วิทยาศาสตร์-คณิตศาสตร์</p>
+<p>คติประจำใจ : ความพยายามอยู่ที่ไหน ความสำเร็จอยู่ที่นั่น</p>
+</section>
+
+<section class="card" id="education">
+<h2>ประวัติการศึกษา</h2>
+<p>โรงเรียน : ทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
+<p>ระดับการศึกษา : มัธยมศึกษาตอนปลาย</p>
+</section>
+
+<section class="card" id="works">
+<h2>ผลงานด้านวิชาการ</h2>
+<ul>
+<li>การแข่งขันด้านวิชาการ</li>
+<li>กิจกรรมคณิตศาสตร์</li>
+<li>ผลงานและรางวัลที่ได้รับ</li>
+</ul>
+</section>
+
+<section class="card" id="activities">
+<h2>กิจกรรมและจิตอาสา</h2>
+<ul>
+<li>กิจกรรมสภานักเรียน</li>
+<li>กิจกรรมจิตอาสา</li>
+<li>กิจกรรมโรงเรียน</li>
+<li>กิจกรรมเพื่อสังคมและชุมชน</li>
+</ul>
+</section>
+
+<section class="card" id="certificates">
+<h2>เกียรติบัตร</h2>
+<p>รวบรวมเกียรติบัตรและรางวัลที่ได้รับ</p>
+</section>
+
+<section class="card">
+<h2>เป้าหมายในอนาคต</h2>
+<p>มุ่งมั่นตั้งใจศึกษา พัฒนาความรู้และความสามารถ เพื่อก้าวไปสู่ความสำเร็จและนำความรู้ไปใช้ประโยชน์ต่อสังคม</p>
+</section>
+
+</div>
+
+<footer>
+<p>MY PORTFOLIO</p>
+<p>จัดทำโดย Nitchakan Sudjit</p>
+<p>ขอบคุณที่เข้าชมเว็บไซต์</p>
+</footer>
+
+</body>
+</html>
